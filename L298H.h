@@ -5,7 +5,7 @@
 
 class L298H {
   public:
-    L298H();
+    L298H ();
     void Pinout(int in1,int in2,int in3,int in4,int enableA,int enableB);
     void goToBack();
     void goToFront();
