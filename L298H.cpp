@@ -23,14 +23,14 @@
     }
 
     
-    void  L298H::goBackward(){ 
+    void  L298H::goForward(){ 
       digitalWrite(pin1, HIGH);
       digitalWrite(pin2, LOW);
       analogWrite(enable,speed);
       
     }   
 
-    void  L298H::goForward(){ 
+    void  L298H::goBackward(){ 
       digitalWrite(pin1, LOW);
       digitalWrite(pin2, HIGH);
       analogWrite(enable,speed);
